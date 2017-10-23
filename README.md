@@ -1,6 +1,6 @@
 # Movie Finder
 
-####App where you search for movies, series &amp; games using OMDb API.
+#### App where you search for movies, series &amp; games using OMDb API.
 
 ![Screenshot](screenshot.gif)
 
