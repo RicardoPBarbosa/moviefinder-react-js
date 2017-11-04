@@ -35,7 +35,7 @@ button:focus{outline:none;border:none;}
 .searchForm ul {list-style: none;padding:0px 15px;}
 .searchForm li {display: inline-block;margin-right:5px;}
 .searchForm input[type="radio"] {visibility:hidden; }
-.searchForm label {cursor: pointer;color:white;font-size:35px;font-weight:200;}
+.searchForm label {cursor: pointer;color:white;font-size:25px;font-weight:200;}
 .searchForm input[type="radio"]:checked + label {font-weight:400; }
 .resultsList{width:105%;max-height:370px;color:white;overflow-y:scroll;margin-left:1px;}
 .result{padding:30px 10px;position:relative;overflow:hidden;background:#474747;text-align:center;border-bottom:1px solid #9D9D9D;}
