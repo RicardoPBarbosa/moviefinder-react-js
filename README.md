@@ -14,7 +14,7 @@ You can get your key [here](http://www.omdbapi.com/apikey.aspx).
 
 After you fill your info you will need to confirm your email and click on a link to activate the key and after that you got your key ready to use.
 
-Now you need to go into ```sh src/js/utils/AppAPI.js``` and add the key in line 5.
+Now you need to go into ```src/js/utils/AppAPI.js``` and add the key in line 5.
 
 ## Install
 
