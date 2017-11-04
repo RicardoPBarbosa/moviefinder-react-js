@@ -2,6 +2,7 @@ var AppActions = require('../actions/AppActions');
 
 module.exports = {
 	searchMovies: function(movie){
+		let apiKey = '';
 		switch(movie.type){
 			case 'all':
 				var type = '';
@@ -21,7 +22,7 @@ module.exports = {
 				break;
 		}
 		$.ajax({
-			url: 'http://www.omdbapi.com/?s=' + movie.title + type,
+			url: 'http://www.omdbapi.com/?s=' + movie.title + type + '&apikey=' + apiKey,
 			dataType: 'json',
 			cache: false,
 			success: function(data){
